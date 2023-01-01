@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {%block title%}hommeeee{% endblock%}
 {% block body %}
-    <h1>Home Page</h1>
+    <h1>Home Page after github</h1>
     {% for cat in categoryw %}
         <h2><a href="{% url 'home:category' slug.id %}"><h1>{{ cat.name }}</h1></a></h2>
             <img src="{{ cat.image.url }}" alt="{{ cat.name }}" style="width: 300px; height: 350px;">

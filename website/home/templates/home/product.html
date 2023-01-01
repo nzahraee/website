@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{%block title%}product{% endblock%}
+{% block body %}
+<h1> product</h1>
+    {% for product in products  %}
+        <h6>{{ product.name }}</h6>
+        <a href="{% url 'home:detail' product.id %}">
+            <img src="{{ product.image.url }}" style="width: 200px" height="150px">
+        </a>
+        <br/>
+        {% if product.discount %}
+            <h4 style="text-decoration: line-through ">{{ product.unite_price }}</h4>
+            <h3>{{ product.total_price }}</h3>
+        {% else %}
+            <h3>{{ product.total_price }}</h3>
+        {% endif %}
+    {%  endfor %}
+
+{% endblock %}

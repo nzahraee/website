@@ -1,2 +1,0 @@
-# Course
-Learn Git

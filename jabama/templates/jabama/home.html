@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %}جاباما{% endblock %}
+{% block body %}
+   {% for ja in category  %}
+       <table>
+            <tr>
+                <td>
+                        <img style="width: 400px; height: 350px; padding-left: 20px" src="{{ ja.image.url }}"/>
+
+                </td>
+            </tr>
+           <tr>
+                <td>
+                     <h3 style="padding-left: 20px">{{ ja.name }}</h3>
+                     <h3 style="padding-left: 20px">{{ ja.price }}</h3>
+                </td>
+            </tr>
+       </table>
+   {%  endfor %}
+{% endblock %}

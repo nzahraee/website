@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block title %}product detail{% endblock %}
+{% block body %}
+    <h1>{{ category.name }}</h1>
+    <img style="width: 250px" src="{{ category.image.url }}"><br/>
+    <p>{{ productd.information }}</p>
+{% endblock %}

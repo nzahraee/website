@@ -5,109 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8223ca67-541a-4552-88c8-b508f92dbd83" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/.idea/website.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/accounts/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/accounts/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/accounts/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/accounts/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/accounts/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/accounts/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/accounts/static/accounts/register.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/accounts/templates/accounts/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/accounts/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/accounts/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/accounts/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0002_auto_20221223_0825.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0003_auto_20221223_1250.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0004_product_available.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0005_remove_product_category_remove_product_unit_price.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0006_delete_product.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0007_product.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0008_product_available.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0009_remove_product_total_price.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0010_auto_20221227_0729.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0011_category_slug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0012_alter_category_slug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0013_alter_category_slug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0014_alter_category_slug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0015_alter_category_slug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0016_alter_category_slug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0017_alter_category_slug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0018_remove_category_slug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/0019_category_slug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/templates/home/detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/templates/home/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/templates/home/jabama.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/templates/home/product.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/templates/home/profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/home/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/category/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/category/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/category/download_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/category/download_3_qv6K7Qh.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/category/download_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/category/images.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/category/images_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/category/images_zTPCPh1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/category/kids.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/category/kids_M7O6qcU.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/category/kids_UFCcggO.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/category/kids_qvV5zSJ.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/category/men.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/category/women.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/product/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/product/download.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/product/download_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/product/download_2_8bDUFLA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/product/download_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/product/download_3_R6zrvwM.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/product/download_3_lxITetF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/product/download_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/product/download_4_ljJk4sr.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/product/download_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/product/download_5_KsmBmBd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/product/download_5_hUBSakF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/product/download_5_mNAuLDW.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/product/images_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/product/images_1_hYAdgJv.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/product/images_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/product/images_2_Hup2nHz.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/media/product/men.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/navbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/website/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/website/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/website/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/website/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/website/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0002_auto_20221223_0825.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0003_auto_20221223_1250.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0004_product_available.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0005_remove_product_category_remove_product_unit_price.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0006_delete_product.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0007_product.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0008_product_available.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0009_remove_product_total_price.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0010_auto_20221227_0729.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0011_category_slug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0012_alter_category_slug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0013_alter_category_slug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0014_alter_category_slug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0015_alter_category_slug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0016_alter_category_slug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0017_alter_category_slug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0018_remove_category_slug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/0019_category_slug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jabama/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/jabama/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jabama/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jabama/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jabama/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/jabama/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,12 +79,23 @@
       <option name="presentableId" value="Default" />
       <updated>1672656683201</updated>
       <workItem from="1672656684355" duration="146000" />
-      <workItem from="1672656839533" duration="6605000" />
+      <workItem from="1672656839533" duration="17300000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/website$models.coverage" NAME="models Coverage Results" MODIFIED="1672662149168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jabama" />

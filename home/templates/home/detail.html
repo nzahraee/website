@@ -4,4 +4,10 @@
     <h1>{{ productd.name }}</h1>
     <img style="width: 250px" src="{{ productd.image.url }}"><br/>
     <p>{{ productd.information }}</p>
+    <hr style="border: 2 red solid">
+    {% if product.status == 'Size' %}
+        {% for data in variant %}
+            <small>{{ data.size_variant }}</small>
+        {% endfor %}
+    {% endif %}
 {% endblock %}

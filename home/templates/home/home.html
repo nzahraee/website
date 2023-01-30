@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 {%block title%}hommeeee{% endblock%}
 {% block body %}
-    <h1>Home Page after github</h1>
-    Home Page
+    <h1>Home Page</h1>
+    <div style="margin-left: 200px; display: block">
+    {% for data in categoryw %}
+        <h2><a href="{% url 'home:category'  data.id %}"><h1>{{ data.name }}</h1></a></h2>
+            <img src="{{ data.image.url }}" alt="{{ data.name }}" style="width: 300px; height: 350px;"><br/>
+        <hr style="color: red; border: 1px solid red; width: 500px"/>
+    {% endfor %}
+    </div>
 {% endblock %}

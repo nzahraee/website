@@ -2,18 +2,33 @@
 {%block title%}product{% endblock%}
 {% block body %}
 <h1> product</h1>
-    {% for product in products  %}
-        <h6>{{ product.name }}</h6>
-        <a href="{% url 'home:detail' product.id %}">
-            <img src="{{ product.image.url }}" style="width: 200px" height="150px">
-        </a>
-        <br/>
-        {% if product.discount %}
-            <h4 style="text-decoration: line-through ">{{ product.unite_price }}</h4>
-            <h3>{{ product.total_price }}</h3>
-        {% else %}
-            <h3>{{ product.total_price }}</h3>
-        {% endif %}
-    {%  endfor %}
-
+    <div style="margin-left: 200px">
+        {% for data in category %}
+            <a href="#">{{ data.name }}</a>
+            <div class="btn-group">
+              <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  {{ data.name }}
+              </button>
+                <div class="dropdown-menu">
+                   {%  for info in data.sub.all %}
+                        <a class="dropdown-item" href="#">{{ info.name }}</a>
+                   {% endfor %}
+                </div>
+            </div>
+        {% endfor %}
+        {% for product in products  %}
+            <h6>{{ product.name }}</h6>
+            <a href="{% url 'home:detail' product.id %}">
+                <img src="{{ product.image.url }}" style="width: 200px" height="150px">
+            </a>
+            <br/>
+            {% if product.discount %}
+                <h4 style="text-decoration: line-through ">{{ product.unite_price }}</h4>
+                <h3>{{ product.total_price }}</h3>
+            {% else %}
+                <h3>{{ product.total_price }}</h3>
+            {% endif %}
+            <hr style="color: red; border: 1px solid red; width: 500px"/>
+        {%  endfor %}
+    </div>
 {% endblock %}
